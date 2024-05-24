@@ -8,15 +8,17 @@ A regression model to accurately predict item difficulty and response time based
 - **Types of Questions:** multiple-choice questions (MCQs) from USMLE Steps 1, 2CK, and 3
 
 
-3. **Feature Engineering:**
-   - Integrated Flesch Readability score to capture linguistic information.
-   - Incorporated contextual embeddings from BERT to leverage both syntactic and semantic information.
-4. **Model Development:**
-   - Built a regression model with combined feature vectors including `ques_type`, `exam_type`, `ques_text`, `combined_answer_text`, `Answer_Text`, and `Flesch Readability Score`.
-   - Predicted text difficulty level and response time using these combined features.
-5. **Regularization:**
+## Feature Engineering
+   - Integrated Flesch Readability score to capture linguistic information
+   - Incorporated contextual embeddings from BERT to leverage both syntactic and semantic information
+     
+## Model Development
+   - Built a regression model with combined feature vectors including `ques_type`, `exam_type`, `ques_text`, `combined_answer_text`, `Answer_Text`, and `Flesch Readability Score`
+   - Predicted text difficulty level and response time using these combined features
+     
+ **Regularization:**
    - Implemented L2 regularization techniques to enhance the accuracy and generalization capability of the models.
-6. **Evaluation:**
+ **Evaluation:**
    - Assessed model performance using Root Mean Square Error (RMSE).
 
 
