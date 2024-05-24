@@ -16,9 +16,9 @@ A regression model to accurately predict item difficulty and response time based
    - Built a regression model with combined feature vectors including `ques_type`, `exam_type`, `ques_text`, `combined_answer_text`, `Answer_Text`, and `Flesch Readability Score`
    - Predicted text difficulty level and response time using these combined features
      
- **Regularization:**
+- **Regularization:**
    - Implemented L2 regularization techniques to enhance the accuracy and generalization capability of the models.
- **Evaluation:**
+- **Evaluation:**
    - Assessed model performance using Root Mean Square Error (RMSE).
 
 
